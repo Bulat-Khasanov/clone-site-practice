@@ -1,24 +1,27 @@
-h1 {
-    font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
-    font-weight: 500;
-    font-size: 15px;
+a {
+    text-decoration: none;
 }
 
-header {
+.menu {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 40px
+    justify-content: space-between;
+    padding: 10px 5px;
 }
 
-h1 {
+.about a{
+    font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
 }
 
-.menu_list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+h1.about {
+    margin: 0;
+    padding: 0;
 }
+
 .menu_element {
     text-transform: uppercase;
     font-size: 10px;
@@ -26,14 +29,27 @@ h1 {
 }
 
 .menu_element a {
-    text-decoration: none;
     color: rgb(141, 141, 141);
 }
 
+.menu_element a:hover {
+    color: black;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social_element img {
+    height: 15px;
+    object-fit: cover;
+}
+
 @font-face {
-    font-family: 'montserrat';
-    src: url('montserrat-variablefont_wght.woff2') format('woff2'),
-         url('montserrat-variablefont_wght.woff') format('woff');
+    font-family: 'Montserrat';
+    src: url('/about/montserrat-variablefont_wght.woff2') format('woff2'),
+         url('/about/montserrat-variablefont_wght.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
