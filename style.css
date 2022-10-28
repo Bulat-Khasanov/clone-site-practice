@@ -2,11 +2,15 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin: 0;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 5px;
 }
 
@@ -20,6 +24,7 @@ a {
 h1.about {
     margin: 0;
     padding: 0;
+    padding-right: 100px;
 }
 
 .menu_element {
@@ -44,6 +49,10 @@ h1.about {
 .social_element img {
     height: 15px;
     object-fit: cover;
+}
+
+.main_quote_img img{
+    max-width: 100%;
 }
 
 @font-face {
