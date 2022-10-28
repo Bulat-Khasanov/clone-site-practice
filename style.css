@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.menu {
+.inner_header {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -21,23 +21,26 @@ body {
     color: black;
 }
 
-h1.about {
+.about {
     margin: 0;
     padding: 0;
     padding-right: 100px;
 }
 
-.menu_element {
-    text-transform: uppercase;
-    font-size: 10px;
-    display: inline-block;
+.sections_and_social {
+    display: flex;
+}
+li.sections_item {
+    display: inline;
 }
 
-.menu_element a {
+.sections_item a {
     color: rgb(141, 141, 141);
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
-.menu_element a:hover {
+.sections_item a:hover {
     color: black;
 }
 
@@ -46,7 +49,7 @@ h1.about {
     gap: 10px;
 }
 
-.social_element img {
+.social_item img {
     height: 15px;
     object-fit: cover;
 }
