@@ -6,38 +6,54 @@ body {
     margin: 0;
 }
 
+.header {
+    margin: 0 auto;
+}
+
 .inner_header {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: center;
-    padding: 10px 5px;
+    padding: 1.5em 1em;
+    background-color: white;
 }
 
 .about a{
     font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     color: black;
 }
 
 .about {
     margin: 0;
     padding: 0;
-    padding-right: 100px;
+    padding-left: 40px;
+    margin-bottom: 13px;
+    margin-top: 16px;
+    margin-right: 140px;
+    justify-self: flex-start;
 }
 
 .sections_and_social {
     display: flex;
+    align-items: baseline;
+    gap: 250px;
 }
+
+.sections {
+    display: flex;
+    margin-bottom: 7px;
+}
+
 li.sections_item {
-    display: inline;
+    display: inline-block;
 }
 
 .sections_item a {
     color: rgb(141, 141, 141);
     text-transform: uppercase;
     font-size: 12px;
+    padding: 8px;
 }
 
 .sections_item a:hover {
@@ -46,7 +62,7 @@ li.sections_item {
 
 .social {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .social_item img {
