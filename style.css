@@ -94,7 +94,6 @@ li.sections_item {
 .flora {
     display: flex;
     align-items: center;
-    border-bottom: solid grey 3px;
     gap: 10px;
 }
 
@@ -116,7 +115,9 @@ li.sections_item {
     line-height: 7px;
 }
 
-
+.cindy_middle_img img {
+    max-width: 100%;
+}
 
 
 @font-face {
