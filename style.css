@@ -82,9 +82,6 @@ li.sections_item {
 }
 
 .regular_cite_flow {
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +89,9 @@ li.sections_item {
 }
 
 .flora {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
