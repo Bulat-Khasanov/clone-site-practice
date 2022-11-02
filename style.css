@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
     font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
     font-size: 16px;
-    color: black;
 }
 
 .about {
@@ -73,6 +73,37 @@ li.sections_item {
 .main_quote_img img{
     max-width: 100%;
 }
+
+.flora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid grey 3px;
+}
+
+.flora img{
+    width: 260px;
+    height: auto;
+    margin: 20px;
+}
+
+.flora figcaption {
+    font-size: .61em;
+}
+
+.flora_right {
+    width: 360px;
+}
+
+.flora_right cite {
+    font-size: 0.75em;
+}
+
+
+
 
 @font-face {
     font-family: 'Montserrat';
