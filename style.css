@@ -112,7 +112,8 @@ li.sections_item {
 
 .flora_right cite {
     font-size: 0.75em;
-    line-height: 7px;
+    line-height: 0.75em;
+    font-style: normal;
 }
 
 .cindy_middle_img img {
