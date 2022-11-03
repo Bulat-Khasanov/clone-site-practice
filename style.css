@@ -57,7 +57,7 @@ hr {
 }
 
 li.sections_item {
-    display: inline-block;
+    list-style: none;
 }
 
 .sections_item a {
@@ -131,25 +131,50 @@ li.sections_item {
 
 .cindy_middle_img img {
     max-width: 100%;
+}
+
+.block_separator_border_top {
+    max-width: 100%;
     padding-top: 25px;
     border-top: rgb(187, 187, 187) solid 4px;
+}
 
+.block_separator_border_bottom {
+    max-width: 100%;
     padding-bottom: 35px;
     border-bottom: rgb(187, 187, 187) solid 4px;
 }
 
-
-.block-separator {
-    margin: 24px 0;
-    border-top: 1.25px solid;
-    border-bottom: 1.25px solid;
+.section_separator_border_bottom {
+    max-width: 100%;
+    padding-bottom: 35px;
+    border-bottom: rgb(187, 187, 187) solid 3px;
 }
 
-.cindy_m_bottom_text {
+.about_patricia {
     width: 640px;
     text-align: center;
 }
 
+.about_patricia p{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.about_patricia h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.about_patricia ul {
+    padding: 0;
+    margin: 0;
+}
+
+.about_patricia ul li {
+    list-style: none;
+    text-align: center;
+}
 
 @font-face {
     font-family: 'Montserrat';
