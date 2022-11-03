@@ -10,6 +10,15 @@ body {
     font-size: 16px;
 }
 
+hr {
+    color: #e8e8e8;
+    background-color: #e8e8e8;
+    height: 1px;
+    margin: 1.5em 0;
+    padding: 0;
+    width: 100%
+}
+
 .header {
 }
 
@@ -64,10 +73,13 @@ li.sections_item {
 
 .social {
     display: flex;
-    gap: 12px;
 }
 
-.social_item img {
+.social a {
+    padding-left: 12px;
+}
+
+.social img {
     height: 15px;
     object-fit: cover;
 }
@@ -76,12 +88,9 @@ li.sections_item {
     max-width: 100%;
 }
 
-.flex_wrapper {
+.regular_site_flow {
     width: 760px;
     margin: 0 auto;
-}
-
-.regular_cite_flow {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,8 +122,11 @@ li.sections_item {
 
 .flora_right cite {
     font-size: 0.75em;
-    line-height: 0.75em;
     font-style: normal;
+    padding-top: 10px;
+    display: inline-block;
+    line-height: 1.4;
+    margin-top: 1em;
 }
 
 .cindy_middle_img img {
@@ -124,6 +136,18 @@ li.sections_item {
 
     padding-bottom: 35px;
     border-bottom: rgb(187, 187, 187) solid 4px;
+}
+
+
+.block-separator {
+    margin: 24px 0;
+    border-top: 1.25px solid;
+    border-bottom: 1.25px solid;
+}
+
+.cindy_m_bottom_text {
+    width: 640px;
+    text-align: center;
 }
 
 
