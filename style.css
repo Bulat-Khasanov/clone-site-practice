@@ -264,6 +264,16 @@ li.sections_item {
     text-align: center;
 }
 
+.ending_image {
+    width: 740px;
+    margin: 40px 0;
+}
+
+.ending_image img {
+    width: 100%;
+    height: auto;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/about/montserrat-variablefont_wght.woff2') format('woff2'),
