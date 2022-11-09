@@ -260,7 +260,7 @@ li.sections_item {
 }
 
 .contact_section {
-    width: 740px;
+    min-width: 740px;
     text-align: center;
 }
 
