@@ -3,6 +3,15 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #a29377;
+}
+
+a:visited {
+    color: #a29377;
+}
+
+
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -205,21 +214,16 @@ li.sections_item {
     color: black;
 }
 
-.book_reviews p a:hover {
+.review .full_review_link:hover {
     color: #a29377;
 }
 
-.book_reviews p a:visited {
+.review .full_review_link:visited {
     color: #a29377;
 }
 
 .book_reviews a {
-    color: #a29377;
     font-size: .70em;
-}
-
-.book_reviews a:hover {
-    color: black;
 }
 
 .books {
@@ -248,6 +252,11 @@ li.sections_item {
 
 .books_grid figcaption {
     font-size: 12px;
+}
+
+.contact_section {
+    width: 740px;
+    text-align: center;
 }
 
 @font-face {
