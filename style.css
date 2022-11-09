@@ -200,6 +200,11 @@ li.sections_item {
     font-size: 12px;
 }
 
+.review .full_review_link {
+    font-size: 12px;
+    color: black;
+}
+
 .book_reviews p a:hover {
     color: #a29377;
 }
