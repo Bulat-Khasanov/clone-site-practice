@@ -11,6 +11,10 @@ a:visited {
     color: #a29377;
 }
 
+h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
 
 body {
     margin: 0;
@@ -37,8 +41,13 @@ figure {
 
 .about a{
     font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
-    font-weight: bold;
     font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.about a:visited {
+    color: black;
 }
 
 .about {
@@ -226,10 +235,6 @@ li.sections_item {
     font-size: .70em;
 }
 
-.books {
-    font-weight: normal;
-    font-size: 18px;
-}
 .books_grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
