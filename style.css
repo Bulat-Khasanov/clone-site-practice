@@ -35,6 +35,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     padding: 1.5em 1em;
+    background-color: #fafafa;
     /* Поправить после введения медиавыражения */
     column-gap: 90px;
 }
