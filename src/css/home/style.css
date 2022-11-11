@@ -202,3 +202,12 @@ figure {
     width: 100%;
     height: auto;
 }
+
+@font-face {
+    font-family: 'timelessregular';
+    src: url('../../fonts/timeless-webfont.woff2') format('woff2'),
+         url('../../fonts/timeless-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
