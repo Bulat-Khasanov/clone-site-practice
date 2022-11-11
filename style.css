@@ -301,8 +301,8 @@ a.selected {
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('.src/fonts/montserrat-variablefont_wght.woff2') format('woff2'),
-         url('.src/fonts/montserrat-variablefont_wght.woff') format('woff');
+    src: url('./src/fonts/montserrat-variablefont_wght.woff2') format('woff2'),
+         url('./src/fonts/montserrat-variablefont_wght.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
