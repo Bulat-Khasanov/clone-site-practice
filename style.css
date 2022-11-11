@@ -295,7 +295,7 @@ li.sections_item {
     padding-bottom: 10px;
 }
 
-.selected {
+a.selected {
     color: black;
 }
 
