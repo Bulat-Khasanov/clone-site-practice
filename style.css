@@ -280,6 +280,20 @@ li.sections_item {
     height: auto;
 }
 
+.inner_footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #e8e8e8;
+    padding: 10px 0;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 12px;
+    padding-left: 40px;
+    color: rgb(85, 83, 83);
+    padding-bottom: 5px;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/about/montserrat-variablefont_wght.woff2') format('woff2'),
