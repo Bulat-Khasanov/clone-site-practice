@@ -211,8 +211,8 @@ figure {
 .text_on_end_img {
     width: 18em;
     position: absolute;
-    padding-left: 37%;
-    padding-top: 20%;
+    padding-left: 330px;
+    padding-top: 180px;
     z-index: 1;
     display: block;
 
