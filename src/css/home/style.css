@@ -207,3 +207,27 @@ figure {
     width: 100%;
     height: auto;
 }
+
+.text_on_end_img {
+    width: 18em;
+    position: absolute;
+    padding-left: 37%;
+    padding-top: 20%;
+    z-index: 1;
+    display: block;
+
+}
+
+.text_on_end_img p {
+    font-family: 'timelessregular';
+    font-size: 1.5em;
+    color: white; 
+}
+
+@font-face {
+    font-family: 'timelessregular';
+    src: url('../../fonts/timeless-webfont.woff2') format('woff2'),
+         url('../../fonts/timeless-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
