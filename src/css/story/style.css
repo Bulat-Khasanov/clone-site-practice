@@ -1,44 +1,8 @@
-a {
-    text-decoration: none;
-    color: black;
+.main_img {
+    width: 760px;
+    margin: 20px auto 0 auto;
 }
 
-a:hover {
-    color: #a29377;
-}
-
-a:visited {
-    color: #a29377;
-}
-
-h2 {
-    font-weight: normal;
-    font-size: 18px;
-}
-
-body {
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.55;
-    font-size: 16px;
-    color: #555353
-}
-
-h3 {
-    font-weight: normal;
-}
-
-figure {
-    margin: 0;
-}
-
-.regular_site_flow {
-    width: 640px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    overflow: visible;
+.main_img img {
+    width: 100%;
 }
