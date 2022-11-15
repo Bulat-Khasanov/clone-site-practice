@@ -29,3 +29,31 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+.story_continuation {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.brain_images {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    gap: 15px;
+}
+
+.brain_img_description {
+    font-size: 12px;
+    line-height: 2em;
+}
+
+.story_cont_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.story_cont_text p {
+    margin: 0;
+}
