@@ -1,4 +1,4 @@
-.main_quote_img img{
+.main_quote_img {
     max-width: 100%;
 }
 
@@ -40,10 +40,6 @@
 .cindy_middle_img {
     min-width: 760px;
     padding: 25px 0;
-}
-
-.cindy_middle_img img {
-    max-width: 100%;
 }
 
 .about_patricia {
