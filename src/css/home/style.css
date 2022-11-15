@@ -224,6 +224,11 @@ figure {
     color: white; 
 }
 
+.end_img_txt_newline {
+    display: inline-block;
+    padding-top: 1.2em;
+}
+
 @font-face {
     font-family: 'timelessregular';
     src: url('../../fonts/timeless-webfont.woff2') format('woff2'),
