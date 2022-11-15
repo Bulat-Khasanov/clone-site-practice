@@ -32,19 +32,23 @@ figure {
     margin: 0;
 }
 
-.block_separator_border_top {
+.separator_border_4_top {
     max-width: 100%;
     border-top: #e8e8e8 solid 4px;
 }
 
-.block_separator_border_bottom {
+.separator_border_4_bottom {
     max-width: 100%;
     border-bottom: #e8e8e8 solid 4px;
 }
 
-.section_separator_border_bottom {
+.separator_border_2_5_bottom {
     max-width: 100%;
-    border-bottom: #e8e8e8 solid 2px;
+    border-bottom: #e8e8e8 solid 2.5px;
+}
+.separator_border_1_bottom {
+    max-width: 100%;
+    border-bottom: #e8e8e8 solid 1px;
 }
 
 .regular_site_flow {
