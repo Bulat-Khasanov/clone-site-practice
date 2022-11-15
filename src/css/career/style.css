@@ -1,0 +1,17 @@
+
+.main_img_figure {
+    width: 728px;
+    margin: 50px auto 0 auto;
+    padding-bottom: 12px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.main_img_figcaption {
+    margin-top: 5px;
+    text-align: end;
+    font-size: 0.58em;
+    text-transform: uppercase;
+}
