@@ -34,20 +34,17 @@ figure {
 
 .block_separator_border_top {
     max-width: 100%;
-    padding-top: 25px;
-    border-top: rgb(187, 187, 187) solid 4px;
+    border-top: #e8e8e8 solid 4px;
 }
 
 .block_separator_border_bottom {
     max-width: 100%;
-    padding-bottom: 35px;
-    border-bottom: rgb(187, 187, 187) solid 4px;
+    border-bottom: #e8e8e8 solid 4px;
 }
 
 .section_separator_border_bottom {
     max-width: 100%;
-    padding-bottom: 35px;
-    border-bottom: rgb(187, 187, 187) solid 2px;
+    border-bottom: #e8e8e8 solid 2px;
 }
 
 .regular_site_flow {
@@ -57,6 +54,5 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     overflow: visible;
 }
