@@ -1,16 +1,3 @@
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #a29377;
-}
-
-a:visited {
-    color: #a29377;
-}
-
 .header {
     background-color: #fafafa;
 }
@@ -84,10 +71,6 @@ li.sections_item {
 .social img {
     height: 15px;
     object-fit: cover;
-}
-
-.main_quote_img img{
-    max-width: 100%;
 }
 
 .inner_footer {
