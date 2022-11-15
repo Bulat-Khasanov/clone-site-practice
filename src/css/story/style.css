@@ -1,3 +1,7 @@
+article.regular_site_flow {
+    margin-bottom: 60px;
+}
+
 .main_img_figure {
     width: 760px;
     margin: 20px auto 0 auto;
@@ -33,7 +37,6 @@
 .story_continuation {
     display: flex;
     gap: 25px;
-    margin-bottom: 30px;
 }
 
 .brain_images {
@@ -56,4 +59,8 @@
 
 .story_cont_text p {
     margin: 0;
+}
+
+.pat_sign {
+    align-self: flex-end;
 }
