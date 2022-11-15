@@ -1,10 +1,10 @@
-.main_img {
+.main_img_figure {
     width: 760px;
     margin: 20px auto 0 auto;
     padding-bottom: 10px;
 }
 
-.main_img img {
+.main_img {
     width: 100%;
 }
 
@@ -12,4 +12,20 @@
     text-align: end;
     font-size: 0.58em;
     text-transform: uppercase;
+}
+
+.main_story {
+    margin-top: 40px;
+}
+
+.story_header {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.main_story_text {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
