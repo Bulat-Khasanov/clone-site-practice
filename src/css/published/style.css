@@ -1,0 +1,54 @@
+
+.main_img_figure {
+    width: 728px;
+    margin: 50px auto 0 auto;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.main_img_figcaption {
+    margin-top: 5px;
+    text-align: end;
+    font-size: 0.58em;
+    text-transform: uppercase;
+}
+
+.career_header {
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.career_story {
+    column-count: 2;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.career_story_section {
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+.career_story_section_header {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.career_story_section_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.career_story_section_list_item {
+    font-size: 13px;
+}
