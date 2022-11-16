@@ -32,6 +32,10 @@ figure {
     margin: 0;
 }
 
+main {
+    min-height: 80vh;
+}
+
 .separator_border_4_top {
     max-width: 100%;
     border-top: #e8e8e8 solid 4px;
