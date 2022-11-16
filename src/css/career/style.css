@@ -33,12 +33,8 @@
 
 .career_story_section {
     margin-bottom: 45px;
+    display: inline-block;
 }
-
-.career_story_section:nth-child(2) {
-    margin-bottom: 55px;
-}
-
 
 .career_story_section_header {
     margin: 0;
