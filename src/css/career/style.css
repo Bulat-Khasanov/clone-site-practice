@@ -27,4 +27,23 @@
 
 .career_story {
     column-count: 2;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.career_story_section_header {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.career_story_section_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.career_story_section_list_item {
+    font-size: 12px;
 }
