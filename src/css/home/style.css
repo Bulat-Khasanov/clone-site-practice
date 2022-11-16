@@ -167,23 +167,19 @@
 }
 
 .text_on_end_img {
-    width: 18em;
+    width: 12em;
     position: absolute;
-    padding-left: 330px;
-    padding-top: 180px;
+    padding-left: 375px;
+    padding-top: 200px;
     z-index: 1;
     display: block;
-
-}
-
-.text_on_end_img p {
     font-family: 'timelessregular';
     font-size: 1.5em;
     color: white; 
 }
 
 .end_img_txt_newline {
-    display: inline-block;
+    display: block;
     padding-top: 1.2em;
 }
 
