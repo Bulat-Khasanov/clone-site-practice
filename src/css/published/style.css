@@ -37,7 +37,7 @@ article a {
 }
 
 .one_pub {
-    margin-bottom: .5em;
+    margin-bottom: .7em;
     font-size: 12px;
 }
 
@@ -71,6 +71,18 @@ article a {
 
 .opinion::before {
     content: "Opinion: ";
+}
+
+.review::before {
+    content: "Review: ";
+}
+
+.reprint::before {
+    content: "Reprint: ";
+}
+
+.translations::before {
+    content: "Translations: "
 }
 
 .description {
