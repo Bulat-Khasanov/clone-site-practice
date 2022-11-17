@@ -1,54 +1,98 @@
-
-.main_img_figure {
-    width: 728px;
-    margin: 50px auto 0 auto;
-    padding-bottom: 12px;
-    margin-bottom: 20px;
+article a {
+    font-weight: bold;
 }
 
 .main_img {
-    width: 100%;
+    width: 728px;
+    margin: 45px auto 65px;
+    display: block;
 }
 
-.main_img_figcaption {
-    margin-top: 5px;
-    text-align: end;
-    font-size: 0.58em;
-    text-transform: uppercase;
-}
-
-.career_header {
+.published_header {
     width: 100%;
     font-size: 20px;
     font-weight: normal;
     margin: 0;
-    padding-bottom: 10px;
 }
-
-.career_story {
-    column-count: 2;
+.publication_history {
     width: 100%;
-    margin: 50px 0;
-}
-
-.career_story_section {
-    margin-bottom: 45px;
-    display: inline-block;
-}
-
-.career_story_section_header {
     margin: 0;
+    margin-top: 30px;
+}
+
+.pub_for_a_one_year {
+    margin-bottom: 25px;
+}
+
+.year_header {
     font-size: 13px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin: 0;
 }
 
-.career_story_section_list {
+.pub_list {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
-.career_story_section_list_item {
-    font-size: 13px;
+.one_pub {
+    margin-bottom: .7em;
+    font-size: 12px;
+}
+
+.pub_link {
+    font-style: normal;
+    display: block; 
+}
+
+.pub_link.disabled {
+    pointer-events: none;
+}
+
+.disabled:hover {
+    color: black;
+}
+
+.additional_info {
+    display: block; 
+}
+
+.pub_cite {
+    display: block; 
+    font-style: normal;
+}
+
+.one_pub ::before {
+    font-style: italic;
+    font-weight: normal;
+    color: #555353;
+}
+
+.foreward::before {
+    content: "Foreward: ";
+}
+
+.podcast::before {
+    content: "Podcast: ";
+}
+
+.opinion::before {
+    content: "Opinion: ";
+}
+
+.review::before {
+    content: "Review: ";
+}
+
+.reprint::before {
+    content: "Reprint: ";
+}
+
+.translations::before {
+    content: "Translations: "
+}
+
+.description {
+    font-style: italic;
 }
