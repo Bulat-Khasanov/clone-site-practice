@@ -20,36 +20,59 @@ article a {
     margin-top: 30px;
 }
 
+.pub_for_a_one_year {
+    margin-bottom: 25px;
+}
+
 .year_header {
     font-size: 13px;
     font-weight: bold;
     margin: 0;
 }
 
-.pub_for_a_one_year {
-    margin-bottom: 25px;
+.pub_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.pub_info {
-    font-size: 13px;
-    margin: 0 0 .5em;
-    display: block;
-}
-
-.link_line {
-    font-style: italic;
-    display: inherit; 
+.one_pub {
+    margin-bottom: .5em;
+    font-size: 12px;
 }
 
 .pub_link {
     font-style: normal;
+    display: block; 
 }
 
 .additional_info {
-    display: inherit; 
+    display: block; 
 }
 
 .pub_cite {
-    display: inherit; 
+    display: block; 
     font-style: normal;
+}
+
+.one_pub ::before {
+    font-style: italic;
+    font-weight: normal;
+    color: #555353;
+}
+
+.foreward::before {
+    content: "Foreward: ";
+}
+
+.podcast::before {
+    content: "Podcast: ";
+}
+
+.opinion::before {
+    content: "Opinion: ";
+}
+
+.description {
+    font-style: italic;
 }
