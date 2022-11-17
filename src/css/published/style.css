@@ -46,6 +46,14 @@ article a {
     display: block; 
 }
 
+.pub_link.disabled {
+    pointer-events: none;
+}
+
+.disabled:hover {
+    color: black;
+}
+
 .additional_info {
     display: block; 
 }
