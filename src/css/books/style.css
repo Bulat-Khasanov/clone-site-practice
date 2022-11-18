@@ -29,20 +29,25 @@
     width: 205px;
 }
 
+.book_name_and_discr {
+    margin-bottom: 25px;
+}
+
 .book_header {
     margin: 0 0 0;
 }
 
 .about_book_text {
-    word-break: break-word;
-    word-wrap: break-word;
+    margin-bottom: 20px;
 }
 
 .book_awards {
     font-weight: bold;
     font-size: 12px;
-    padding-bottom: 20px;
-    margin-bottom: 25px;
+    padding: 0;
+    margin: 0;
+    margin: 10px 0 20px;
+    list-style: none;
 }
 
 .book_reviews {
