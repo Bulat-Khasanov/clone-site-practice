@@ -1,8 +1,7 @@
 .main_img_figure {
-    width: 728px;
-    margin: 50px auto 0 auto;
-    padding-bottom: 12px;
-    margin-bottom: 20px;
+    width: 704px;
+    margin: 33px auto 45px auto;
+    padding-bottom: 20px;
 }
 
 .main_img {
@@ -10,45 +9,67 @@
 }
 
 .main_img_figcaption {
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: end;
     font-size: 0.58em;
     text-transform: uppercase;
 }
 
-.career_header {
-    width: 100%;
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0;
-    padding-bottom: 8px;
+.regular_site_flow {
+    gap: 50px
 }
 
-.career_story {
-    column-count: 2;
-    width: 100%;
-    margin: 50px 0 40px;
-    column-gap: 25px;
+.one_book {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
 }
 
-.career_story_section {
-    margin-bottom: 45px;
-    display: inline-block;
+.book_img {
+    width: 205px;
 }
 
-.career_story_section_header {
-    margin: 0;
-    font-size: 13px;
+.book_header {
+    margin: 0 0 0;
+}
+
+.about_book_text {
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.book_awards {
     font-weight: bold;
-    margin-bottom: 12px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-.career_story_section_list {
+.book_reviews {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
-.career_story_section_list_item {
+.review {
+    margin-bottom: 20px;
+}
+
+.reviewer {
+    margin: 0;
+    font-weight: bold;
+}
+
+.review_text {
+    margin: 0;
     font-size: 12px;
+}
+
+.full_review_link {
+    display: block;
+}
+
+.link_to_purchase {
+    font-size: 12px;
+    font-weight: bold;
 }
