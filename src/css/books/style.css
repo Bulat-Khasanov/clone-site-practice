@@ -16,7 +16,8 @@
 }
 
 .regular_site_flow {
-    gap: 50px
+    gap: 50px;
+    margin-bottom: 80px;
 }
 
 .one_book {
