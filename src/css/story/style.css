@@ -5,17 +5,7 @@ article.regular_site_flow {
 .main_img_figure {
     width: 760px;
     margin: 20px auto 0 auto;
-    padding-bottom: 15px;
-}
-
-.main_img {
-    width: 100%;
-}
-
-.main_img_figcaption {
-    text-align: end;
-    font-size: 0.58em;
-    text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .main_story {

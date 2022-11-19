@@ -1,18 +1,5 @@
 .main_img_figure {
-    width: 704px;
-    margin: 33px auto 45px auto;
     padding-bottom: 20px;
-}
-
-.main_img {
-    width: 100%;
-}
-
-.main_img_figcaption {
-    margin-top: 10px;
-    text-align: end;
-    font-size: 0.58em;
-    text-transform: uppercase;
 }
 
 .regular_site_flow {

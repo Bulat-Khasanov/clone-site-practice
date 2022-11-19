@@ -63,6 +63,22 @@ main {
     border-bottom: #e8e8e8 solid 1px;
 }
 
+.main_img_figure {
+    width: 704px;
+    margin: 33px auto 45px auto;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.main_img_figcaption {
+    margin-top: 10px;
+    text-align: end;
+    font-size: 0.58em;
+    text-transform: uppercase;
+}
+
 .regular_site_flow {
     width: 640px;
     margin: 0 auto;
