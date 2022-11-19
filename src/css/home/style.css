@@ -102,19 +102,11 @@
 
 .review .full_review_link {
     font-size: 12px;
-    color: black;
-}
-
-.review .full_review_link:hover {
-    color: #a29377;
-}
-
-.review .full_review_link:visited {
-    color: #a29377;
 }
 
 .book_reviews a.link_to_purchase {
     font-size: .70em;
+    font-weight: bold;
 }
 
 .books_section {
