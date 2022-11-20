@@ -1,46 +1,38 @@
-.main_img_figure {
+.regular_site_flow {
     width: 728px;
-    margin: 50px auto 20px auto;
-    padding-bottom: 12px;
+    margin: 50px auto;
+    gap: 40px;
 }
 
-.main_img_figcaption {
-    margin-top: 5px;
-}
-
-.career_header {
+.videos_header {
     width: 100%;
-    font-size: 18px;
+    margin: 0;
+    font-size: 19px;
     font-weight: normal;
-    margin: 0;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
-.career_story {
-    column-count: 2;
+.video {
     width: 100%;
-    margin: 50px 0 40px;
-    column-gap: 25px;
 }
 
-.career_story_section {
-    margin-bottom: 45px;
-    display: inline-block;
+.iframe_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 57%
 }
 
-.career_story_section_header {
-    margin: 0;
-    font-size: 13px;
-    font-weight: bold;
-    margin-bottom: 12px;
+.square {
+    padding-top: 75%;
 }
 
-.career_story_section_list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.career_story_section_list_item {
-    font-size: 12px;
+.video_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
