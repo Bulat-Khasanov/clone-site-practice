@@ -23,6 +23,10 @@
     padding-top: 57%
 }
 
+.square {
+    padding-top: 75%;
+}
+
 .video_iframe {
     position: absolute;
     top: 0;
