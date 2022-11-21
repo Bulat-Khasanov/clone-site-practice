@@ -1,0 +1,32 @@
+.regular_site_flow {
+    width: 760px;
+    margin-top: 50px;
+}
+
+.patricia_gallery {
+    display: grid;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 340px);
+    gap: 20px;
+}
+
+.gallery__item {
+    height: 340px;
+    position: relative;
+}
+
+.gallery__item figcaption {
+    position: absolute;
+    top: 0;
+}
+
+.img_link {
+    width: 100%;
+
+}
+
+.gallery__img {
+    width: 100%;
+}
