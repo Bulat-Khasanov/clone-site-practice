@@ -159,14 +159,14 @@
 }
 
 .text_on_end_img {
-    width: 15em;
+    width: 14em;
     position: absolute;
     padding-left: 370px;
     padding-top: 210px;
     z-index: 1;
     display: block;
     font-family: 'anglecia_pro_displayregular';
-    font-size: 20px;
+    font-size: 22px;
     color: white; 
 }
 
@@ -177,8 +177,8 @@
 
 @font-face {
     font-family: 'anglecia_pro_displayregular';
-    src: url('anglecia-pro-display-webfont.woff2') format('woff2'),
-         url('anglecia-pro-display-webfont.woff') format('woff');
+    src: url('../../fonts/anglecia-pro-display-webfont.woff2') format('woff2'),
+         url('../../fonts/anglecia-pro-display-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
