@@ -1,7 +1,24 @@
 .main_quote_img {
-    max-width: 100%;
+    width: 100%;
+    height: 75vw;
+    object-fit: cover;
 }
 
+.main_quote {
+    width: 15em;
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 290px;
+    z-index: 1;
+    display: block;
+    font-family: 'anglecia_pro_displayregular';
+    font-size: 35px;
+    color: white; 
+}
+
+.main_quote_newline {
+    display: inline-block;
+}
 
 .flora {
     margin-top: 20px;
