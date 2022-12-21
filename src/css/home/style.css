@@ -159,14 +159,14 @@
 }
 
 .text_on_end_img {
-    width: 12em;
+    width: 15em;
     position: absolute;
-    padding-left: 375px;
-    padding-top: 200px;
+    padding-left: 370px;
+    padding-top: 210px;
     z-index: 1;
     display: block;
-    font-family: 'timelessregular';
-    font-size: 1.5em;
+    font-family: 'anglecia_pro_displayregular';
+    font-size: 20px;
     color: white; 
 }
 
@@ -176,9 +176,10 @@
 }
 
 @font-face {
-    font-family: 'timelessregular';
-    src: url('../../fonts/timeless-webfont.woff2') format('woff2'),
-         url('../../fonts/timeless-webfont.woff') format('woff');
+    font-family: 'anglecia_pro_displayregular';
+    src: url('anglecia-pro-display-webfont.woff2') format('woff2'),
+         url('anglecia-pro-display-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
