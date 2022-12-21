@@ -20,8 +20,8 @@
     color: black;
 }
 
-.inner_footer a:visited:not(.about), 
-.inner_header a:visited {
+.inner_header a:visited, 
+.inner_footer a:visited {
     color: rgb(141, 141, 141);
 }
 
