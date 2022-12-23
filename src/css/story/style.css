@@ -59,11 +59,19 @@ article.regular_site_flow {
     .brain_images {
         width: 242px;
     }
+
+    main .main_img_figure {
+        width: 1280px;
+    }
 }
 
 @media screen and (min-width: 1030px) and (max-width: 1280px) {
     .brain_images {
         width: 198px;
+    }
+
+    main .main_img_figure {
+        width: 1030px;
     }
 }
 
