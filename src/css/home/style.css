@@ -212,7 +212,52 @@
 
 }
 
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 1280px) {
+    .main_quote_img {
+        width: 100%;
+        height: 718px;
+        object-fit: cover;
+    }
+
+    .main_quote {
+        padding-left: 8vw;
+        padding-top: 25vw;
+    }
+
+    .flora {
+        gap: 40px;
+    }
+
+    .flora img {
+        width: 413px;
+    }
+
+    .flora figure {
+        margin-top: 35px;
+    }
+
+    .cindy_middle_img {
+        min-width: 1248px;
+    }
+
+    .contact_section {
+        min-width: 1248px;
+    }
+
+    .ending_image {
+        min-width: 1248px;
+    }
+
+    .text_on_end_img {
+        padding-left: 630px;
+        padding-top: 355px;
+        font-size: 37px;
+    }
+}
+
+
+
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
     .main_quote_img {
         width: 100%;
         height: 53.9vw;
