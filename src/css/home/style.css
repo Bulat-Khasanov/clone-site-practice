@@ -65,8 +65,8 @@
 }
 
 .cindy_middle_img {
-    min-width: 760px;
-    padding: 25px 0;
+    min-width: 728px;
+    padding: 25px 0 35px;
 }
 
 .about_patricia {
@@ -170,13 +170,13 @@
 }
 
 .contact_section {
-    min-width: 740px;
+    min-width: 728px;
     text-align: center;
     padding: 10px 0 20px;
 }
 
 .ending_image {
-    width: 740px;
+    width: 728px;
     margin: 50px 0 30px;
 }
 
@@ -195,6 +195,7 @@
     font-family: 'anglecia_pro_displayregular';
     font-size: 22px;
     color: white; 
+    line-height: 1.2;
 }
 
 .end_img_txt_newline {
@@ -254,4 +255,27 @@
         padding: 25px 0;
     }
 
+    .books_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .books_grid img {
+        width: 206px;
+    }
+
+    .contact_section {
+        min-width: 100%;
+    }
+
+    .ending_image {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    .text_on_end_img {
+        font-size: 3vw;
+        padding-left: 46.5vw;
+        padding-top: 25vw;
+    }
 }
