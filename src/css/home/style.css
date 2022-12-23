@@ -59,7 +59,7 @@
     font-size: 0.75em;
     font-style: normal;
     padding-top: 10px;
-    display: inline-block;
+    display: block;
     line-height: 1.4;
     margin-top: 1em;
 }
@@ -230,6 +230,20 @@
 
     .cindy_middle_img {
         min-width: 998px;
+    }
+
+    .contact_section {
+        min-width: 998px;
+    }
+
+    .ending_image {
+        min-width: 998px;
+    }
+
+    .text_on_end_img {
+        padding-left: 505px;
+        padding-top: 290px;
+        font-size: 30px;
     }
 }
 
