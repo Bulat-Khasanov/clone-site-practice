@@ -108,15 +108,24 @@ li.sections_item {
 
 }
 
+@media screen and (min-width: 1280px) {
+    .sections_and_social {
+        gap: 415px;
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
+    .sections_and_social {
+        gap: 140px;
+    }
+}
+
 @media screen and (min-width: 1030px) {
     .inner_header {
         column-gap: 140px;
         flex-wrap: nowrap;
         width:fit-content;
     } 
-    .sections_and_social {
-        gap: 140px;
-    }
 }
 
 @media screen and (max-width: 767px) {
