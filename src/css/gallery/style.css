@@ -1,0 +1,59 @@
+.regular_site_flow {
+    width: 728px;
+    margin: 50px auto;
+    padding-bottom: 20px;
+}
+
+.patricia_gallery {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 340px);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery__item {
+    position: relative;
+    height: 334px;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.brain {
+    height: 236px;
+}
+
+.gallery__item:hover {
+    opacity: 0.6;
+    background-color: rgb(231, 231, 231);
+}
+
+.gallery__figcaption {
+    position: absolute;
+    width: 97.2%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    line-height: 1.3;
+    padding-top: 2px;
+    display: none;
+
+    bottom: 4px;
+    left: 5px; 
+}
+
+.gallery__item:hover .gallery__figcaption {
+    display: block;
+}
+
+.gallery__img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.about_pat_brain {
+    margin-bottom: 40px;
+}
