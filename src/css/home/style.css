@@ -7,13 +7,15 @@
 .main_quote {
     width: 15em;
     position: absolute;
-    padding-left: 80px;
-    padding-top: 290px;
+    padding-left: 10vw;
+    padding-top: 35vw;
     z-index: 1;
     display: block;
     font-family: 'anglecia_pro_displayregular';
-    font-size: 35px;
+    font-size: 3.8vw;
+    letter-spacing: 0.5px;
     color: white; 
+    line-height: 1.2;
 }
 
 .main_quote_newline {
@@ -25,38 +27,46 @@
     margin-bottom: 5px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .flora figure {
     margin: 0;
+    margin-top: 135px;
+    align-self: flex-start;
 }
 
 .flora img{
-    width: 260px;
+    width: 240px;
     height: auto;
 }
 
 .flora figcaption {
     font-size: .61em;
+    margin-top: 15px;
 }
 
 .flora figcaption p {
     margin: 0;
+
+}
+
+.flora_right p {
+    margin: 20px 0; 
 }
 
 .flora_right cite {
     font-size: 0.75em;
     font-style: normal;
     padding-top: 10px;
-    display: inline-block;
+    display: block;
     line-height: 1.4;
     margin-top: 1em;
 }
 
 .cindy_middle_img {
-    min-width: 760px;
-    padding: 25px 0;
+    min-width: 728px;
+    padding: 25px 0 35px;
 }
 
 .about_patricia {
@@ -160,13 +170,13 @@
 }
 
 .contact_section {
-    min-width: 740px;
+    min-width: 728px;
     text-align: center;
     padding: 10px 0 20px;
 }
 
 .ending_image {
-    width: 740px;
+    width: 728px;
     margin: 50px 0 30px;
 }
 
@@ -185,6 +195,7 @@
     font-family: 'anglecia_pro_displayregular';
     font-size: 22px;
     color: white; 
+    line-height: 1.2;
 }
 
 .end_img_txt_newline {
@@ -199,4 +210,131 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media screen and (min-width: 1280px) {
+    .main_quote_img {
+        width: 100%;
+        height: 718px;
+        object-fit: cover;
+    }
+
+    .main_quote {
+        padding-left: 8vw;
+        padding-top: 25vw;
+    }
+
+    .flora {
+        gap: 40px;
+    }
+
+    .flora img {
+        width: 413px;
+    }
+
+    .flora figure {
+        margin-top: 35px;
+    }
+
+    .cindy_middle_img {
+        min-width: 1248px;
+    }
+
+    .contact_section {
+        min-width: 1248px;
+    }
+
+    .ending_image {
+        min-width: 1248px;
+    }
+
+    .text_on_end_img {
+        padding-left: 630px;
+        padding-top: 355px;
+        font-size: 37px;
+    }
+}
+
+
+
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
+    .main_quote_img {
+        width: 100%;
+        height: 53.9vw;
+        object-fit: cover;
+    }
+
+    .main_quote {
+        padding-left: 8vw;
+        padding-top: 25vw;
+    }
+
+    .flora img {
+        width: 340px;
+    }
+
+    .cindy_middle_img {
+        min-width: 998px;
+    }
+
+    .contact_section {
+        min-width: 998px;
+    }
+
+    .ending_image {
+        min-width: 998px;
+    }
+
+    .text_on_end_img {
+        padding-left: 505px;
+        padding-top: 290px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flora {
+        flex-direction: column;
+    }
+
+    .flora img {
+        width: 46vw;
+    }
+    
+    .flora figure {
+        margin: 0;
+    }
+
+    .flora {
+        margin-top: 0;
+    }
+
+    .cindy_middle_img {
+        min-width: 100%;
+        padding: 25px 0;
+    }
+
+    .books_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .books_grid img {
+        width: 206px;
+    }
+
+    .contact_section {
+        min-width: 100%;
+    }
+
+    .ending_image {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    .text_on_end_img {
+        font-size: 3vw;
+        padding-left: 46.5vw;
+        padding-top: 25vw;
+    }
 }

@@ -54,3 +54,29 @@ article.regular_site_flow {
 .pat_sign {
     align-self: flex-end;
 }
+
+@media screen and (min-width: 1280px) {
+    .brain_images {
+        width: 242px;
+    }
+
+    main .main_img_figure {
+        width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
+    .brain_images {
+        width: 198px;
+    }
+
+    main .main_img_figure {
+        width: 1030px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .brain_images {
+        display: none;
+    }
+}

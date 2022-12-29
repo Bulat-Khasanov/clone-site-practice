@@ -14,6 +14,7 @@
     font-weight: normal;
     margin: 0;
     padding-bottom: 8px;
+    letter-spacing: 0.8px;
 }
 
 .career_story {
@@ -43,4 +44,10 @@
 
 .career_story_section_list_item {
     font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .career_story {
+        column-count: 1;
+    }
 }

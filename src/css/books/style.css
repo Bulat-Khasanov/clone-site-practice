@@ -66,3 +66,25 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+@media screen and (min-width: 1280px) {
+    .book_img {
+        width: 361px;
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
+    .book_img {
+        width: 293px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .one_book {
+        flex-direction: column;
+    }
+
+    .book_img {
+        width: 100%;
+    }
+}
