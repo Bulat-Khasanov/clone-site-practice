@@ -221,7 +221,8 @@
 
     .main_quote {
         padding-left: 8vw;
-        padding-top: 25vw;
+        padding-top: 350px;
+        font-size: 3.5vw;
     }
 
     .flora {
@@ -267,6 +268,7 @@
     .main_quote {
         padding-left: 8vw;
         padding-top: 25vw;
+        font-size: 3.5vw;
     }
 
     .flora img {
