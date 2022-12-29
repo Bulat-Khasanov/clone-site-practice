@@ -23,12 +23,12 @@
     padding: 3px;
     opacity: 1;
     transition: 1s ease;
+    transition-property: opacity;
 }
 
 .brain {
     height: 236px;
 }
-
 
 .gallery__item:hover {
     opacity: 0.6;
