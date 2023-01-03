@@ -13,7 +13,7 @@
     align-items: baseline;
 }
 
-.about a{
+.about{
     font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
     font-size: 16px;
     font-weight: bold;
@@ -72,12 +72,10 @@
 }
 
 .second_line {
-    content: "";
     top: 4px;
 }
 
 .third_line {
-    content: "";
     top: 8px;
 }
 
@@ -192,11 +190,15 @@ li.sections_item {
 }
 
 @media screen and (max-width: 767px) {
+    .header {
+        height: 65px;
+    }
     .inner_header {
         box-sizing: border-box;
         width: 100%;
         justify-content: flex-start;
         flex-direction: column;
+        position: fixed;
     }
 
     .about {
