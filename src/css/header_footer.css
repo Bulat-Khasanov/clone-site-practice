@@ -38,7 +38,65 @@
     margin: 13px 0;
 }
 
+.menu_checkbox {
+    display:none;
+}
 
+.menu_checkbox:checked ~ .sections_and_social {
+    height: 300px;
+}
+
+.menu_label {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    top: 43px;
+    overflow: hidden;
+}
+
+.first_line, 
+.second_line, 
+.third_line {
+    transition: 0.3s;
+    background-color: #7d7d7d;
+    width: 22px;
+    height: 3px;
+    position: relative;
+    display: block;
+}
+
+.first_line {
+    top: 0px;
+}
+
+.second_line {
+    content: "";
+    top: 4px;
+}
+
+.third_line {
+    content: "";
+    top: 8px;
+}
+
+.menu_checkbox:checked ~ .menu_label .first_line {
+    top: -6px;
+}
+
+.menu_checkbox:checked ~ .menu_label .second_line {
+    top: 4px;
+    transform: rotate(45deg) translate(2px);
+    width: 22px;
+}
+
+.menu_checkbox:checked ~ .menu_label .third_line {
+    top: 4px;
+    transform: rotate(-45deg) translate(2px);
+    height: 3px;
+    width: 22px;
+}
 
 .sections_and_social {
     display: flex;
