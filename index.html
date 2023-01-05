@@ -11,14 +11,29 @@
 </head>
 <body>
     <header class="header">
+        <nav class="inner_header_mobile">
+            <a class="mobile_block" href="#">
+                <p class="about"><a href="#">PATRICIA CHURCHLAND</a></p>
+                <input type="checkbox" id="menu_open" class="menu_checkbox">
+                <label for="menu_open" class="menu_label">
+                    <a href="#">
+                        <span class="first_line"></span>
+                        <span class="second_line"></span>
+                        <span class="third_line"></span>
+                    </a>   
+                </label>
+            </a>
+            <ul class="sections">
+                <li class="sections_item"><a href="./src/html/story.html">story</a></li>
+                <li class="sections_item"><a href="./src/html/career.html">career</a></li>
+                <li class="sections_item"><a href="./src/html/published.html">published</a></li>
+                <li class="sections_item"><a href="./src/html/books.html">books</a></li>
+                <li class="sections_item"><a href="./src/html/videos.html">videos</a></li>
+                <li class="sections_item"><a href="./src/html/gallery.html">gallery</a></li>
+            </ul>
+        </nav>
         <nav class="inner_header">
             <p class="about"><a href="#">PATRICIA CHURCHLAND</a></p>
-            <input type="checkbox" id="menu_open" class="menu_checkbox">
-            <label for="menu_open" class="menu_label">
-                <span class="first_line"></span>
-                <span class="second_line"></span>
-                <span class="third_line"></span>
-            </label>
             <div class="sections_and_social">
                 <ul class="sections">
                     <li class="sections_item"><a href="./src/html/story.html">story</a></li>
@@ -310,7 +325,7 @@
         </article>
     </main>
     <footer class="footer">
-        <div class="inner_footer">
+        <nav class="inner_footer">
             <ul class="sections">
                 <li class="sections_item"><a href="./src/html/story.html">story</a></li>
                 <li class="sections_item"><a href="./src/html/career.html">career</a></li>
@@ -322,7 +337,7 @@
                 <li class="sections_item"><a class="selected" href="#">HOME</a></li>
             </ul>
             <p class="copyright">&copy; <i>2022 Particia Churchland.</i></p>
-        </div>
+        </nav>
     </footer>
 </body>    
 </html>
