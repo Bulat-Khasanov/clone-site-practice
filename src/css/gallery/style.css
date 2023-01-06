@@ -37,7 +37,7 @@
 
 .gallery__figcaption {
     box-sizing: border-box;
-    width: 97%;
+    width: calc(100% - 5px - 5px);
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
