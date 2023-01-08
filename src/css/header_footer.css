@@ -113,29 +113,32 @@ li.sections_item {
 
 .inner_header_mobile .about {
     margin: 0;
+    margin-left: auto;
 }
 
 .inner_header_mobile .sections {
     display:none;
 }
 
-.menu_checkbox {
+.burger_menu {
+    display: inline-block;
 }
 
-.menu_checkbox:checked ~ .sections_and_social {
+.menu_checkbox {
+    display:none;
+}
+
+.menu_checkbox:checked ~ .sections {
     height: 300px;
 }
 
 .menu_label {
-    position: absolute;
+    cursor: pointer;
 }
 
 .burger_menu {
-    cursor: pointer;
-    position: relative;
     width: 22px;
     height: 20px;
-    top: 0;
     overflow: hidden;
 }
 
@@ -221,6 +224,7 @@ li.sections_item {
 
     .sections {
         flex-direction: column; 
+        height: 0;
     }
 
     .inner_header_mobile {
@@ -228,7 +232,7 @@ li.sections_item {
     }
 
     .menu_label {
-        display: block;
+        display: flex;
     }
 
     .mobile_menu {
