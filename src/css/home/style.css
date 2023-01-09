@@ -1,16 +1,30 @@
-.parallax {
-    position: relative;
-    perspective: 1px;
-    overflow-y: auto;
+.regular_site_flow {
+    transform: translateZ(0px);
 }
 
-.main_quote_img {
-    width: 100%;
+.parallax_wrapper {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 1px;
+}
+
+.parallax_image {
+    position: relative;
     height: 75vw;
+    z-index: -1;
+    transform-style: preserve-3d;
+    inset: 0;
+}
+
+
+.main_quote_img {
+    transform: translateZ(-2px) scale(3);
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
-    inset: 0;
-    z-index: 2;
+    z-index: -1;
 }
 
 .main_quote {
@@ -23,14 +37,10 @@
     font-family: 'anglecia_pro_displayregular';
     font-size: 3.8vw;
     letter-spacing: 0.5px;
-    color: white; 
+    color: black; 
     line-height: 1.2;
 
-    transform: translateZ(-2px) translateX(100) scale(3);
-}
-
-.parallax {
-    transform: translateZ(-2px) scale(2);
+    transform: translateZ(0px);
 }
 
 .main_quote_newline {
