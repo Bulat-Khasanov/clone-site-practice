@@ -103,7 +103,10 @@
 .book_conscience_the_origins img {
     margin: 10px auto 0 0;
     width: 100%;
+    height: auto;
+    max-width: 470px;
 }
+
 
 .about_book {
     padding-bottom: 10px;
@@ -319,9 +322,6 @@
 
     .books_grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .books_grid  {
         width: 100%;
     }
 
