@@ -20,8 +20,9 @@
     color: black;
 }
 
-.inner_header a:visited, 
-.inner_footer a:visited {
+.inner_header        a:visited, 
+.inner_footer        a:visited,
+.inner_header_mobile a:visited {
     color: rgb(141, 141, 141);
 }
 
