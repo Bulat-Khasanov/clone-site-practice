@@ -13,15 +13,16 @@
     align-items: baseline;
 }
 
-.about a{
+.about{
     font-family: "Montserrat", Helvetica, "Helvetica Neue", Arial, sans-serif;;
     font-size: 16px;
     font-weight: bold;
     color: black;
 }
 
-.inner_header a:visited, 
-.inner_footer a:visited {
+.inner_header        a:visited, 
+.inner_footer        a:visited,
+.inner_header_mobile a:visited {
     color: rgb(141, 141, 141);
 }
 
@@ -42,6 +43,8 @@
     display: flex;
     align-items: baseline;
     gap: 250px;
+    height: auto;
+    transition: 0.7s;
 }
 
 .sections {
@@ -56,6 +59,7 @@ li.sections_item {
 }
 
 .sections_item a {
+    display: block;
     color: rgb(141, 141, 141);
     text-transform: uppercase;
     font-size: 12px;
@@ -99,6 +103,105 @@ li.sections_item {
     color: black;
 }
 
+.inner_header_mobile {
+    display: none;
+    width: 100%;
+    z-index: 2;
+    height: 45px;
+    position: fixed;
+    background-color: #fafafa;
+}
+
+.inner_header_mobile .about {
+    margin: 0;
+    margin-left: auto;
+}
+
+.inner_header_mobile .sections {
+    height: 0;
+    overflow: hidden;
+    gap: 0;
+}
+
+.inner_header_mobile .sections_item {
+    height: 48px;
+}
+
+.inner_header_mobile .sections_item a{
+    padding: 13px;
+    height: 22px;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.burger_menu {
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.menu_checkbox {
+    display:none;
+}
+
+.menu_checkbox:checked ~ .sections {
+    height: 336px;
+}
+
+.menu_label {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.burger_menu {
+    width: 22px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.first_line, 
+.second_line, 
+.third_line {
+    transition: 0.3s;
+    background-color: #7d7d7d;
+    width: 22px;
+    height: 3px;
+    position: relative;
+    display: block;
+}
+
+.first_line {
+    top: 0px;
+}
+
+.second_line {
+    top: 4px;
+}
+
+.third_line {
+    top: 8px;
+}
+
+.menu_checkbox:checked ~ .menu_label .first_line {
+    top: -6px;
+}
+
+.menu_checkbox:checked ~ .menu_label .second_line {
+    top: 4px;
+    transform: rotate(45deg) translate(2px);
+    width: 22px;
+}
+
+.menu_checkbox:checked ~ .menu_label .third_line {
+    top: 4px;
+    transform: rotate(-45deg) translate(2px);
+    height: 3px;
+    width: 22px;
+}
+
+
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/montserrat-variablefont_wght.woff2') format('woff2'),
@@ -129,7 +232,37 @@ li.sections_item {
 }
 
 @media screen and (max-width: 767px) {
-    .sections {
+    .header {
+        height: 42px;
+    }
+    .inner_header {
+        display: none;
+    }
+
+    .inner_footer .sections {
         display: none;
     } 
+
+    .sections {
+        flex-direction: column; 
+        padding: 0;
+        margin: 0;
+        transition: 0.3s ease-in;
+        transition-property: height;
+        color: #7d7d7d;
+        background-color: #F2F2F2;
+    }
+
+    .inner_header_mobile {
+        display: block;
+    }
+
+    .menu_label {
+        display: flex;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
 }
